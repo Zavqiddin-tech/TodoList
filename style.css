@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+.todolist-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 10px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px;
+    background-image: url('./blob.svg');
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+  }
+  .container {
+    max-width: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .container div {
+    cursor: pointer;
+  }
+  .soya {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(134, 134, 134, 0.582);
+  }
+.no-todo-item,
+.yes-todo-item {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 2s;
+}
+.no-todo-item {
+    background-image: linear-gradient(90deg, rgb(85, 218, 252), rgb(255, 90, 228));
+}
+
+.yes-todo-item {
+    background-color: rgb(90, 181, 255);
+}
+
+
+.no-text,
+.yes-text {
+    padding: 10px 15px;
+}
+
+.bg {
+    border-bottom: 2px solid rgb(136, 136, 136);
+}
+
+.yes-todo-items {
+    display: none;
+}
+
+.todo-name {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.todo-more {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.todo-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-bottom div {
+    font-weight: 600;
+}
+
+
+.todo-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-icons span {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+
+.verify-span {
+    margin-right: 15px;
+}
+
+.verify-span,
+.udalit-span {
+    transition: 0.3s;
+}
+
+
+.verify-span:hover {
+    color: #fff;
+}
+
+.udalit-span:hover {
+    color: rgb(255, 255, 255);
+}
+
+.x-btn {
+    font-size: 18px;
+    transition: 0.3s;
+}
+.x-btn:hover {
+    color: rgb(255, 0, 0);
+}
+
+.plus-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(40, 147, 235);
+    cursor: pointer;
+}
+
+
+
+
+
+.forma {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    display: none;
+}
+
+.form-hero {
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forma input, textarea, select {
+    width: 80%;
+    border: 1px solid #ccc;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+input {
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 50px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+}
+
+select {
+    padding: 5px;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.add-btn {
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgb(56, 248, 142);
+}
+
+.d-none {
+    display: none;
+}
+.d-active {
+    display: block;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25vh;
+}
+
+
